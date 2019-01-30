@@ -9,7 +9,6 @@ start="$(date +%s.%N)"
 #Compile/run your code here
 python3 prob.py
 
-
 end="$(date +%s.%N)"
 time_elapsed="$(echo $end-$start | bc)"
 echo $time_elapsed
